@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import ReactGA from 'react-ga';
 import './App.css';
 
-const trackingId = "G-VDGBT0GQR9";
+const trackingId = "UA-11286486-4";
 ReactGA.initialize(trackingId);
+ReactGA.pageview('/');
 
 class Body extends Component {
     constructor() {
