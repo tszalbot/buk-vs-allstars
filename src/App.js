@@ -32,7 +32,8 @@ class Body extends Component {
             <div className="App">
                 <div class="bg bg-buk"></div>
                 <div class="bg bg-as"></div>
-                <div className="main-div buk-div">
+
+                <div className="main-div">
                     <div className="image">
                         <div className="img-wrapper">
                             <img className="buk-img" src="buk.svg" alt=""/>
