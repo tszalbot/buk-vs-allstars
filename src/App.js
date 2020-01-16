@@ -30,6 +30,8 @@ class Body extends Component {
     render() {
         return (
             <div className="App">
+                <div class="bg bg-buk"></div>
+                <div class="bg bg-as"></div>
                 <div className="main-div buk-div">
                     <div className="image">
                         <div className="img-wrapper">
