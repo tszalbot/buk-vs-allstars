@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
+import ReactGA from 'react-ga';
 import './App.css';
+
+const trackingId = "G-VDGBT0GQR9";
+ReactGA.initialize(trackingId);
 
 class Body extends Component {
     constructor() {
